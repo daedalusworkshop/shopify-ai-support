@@ -1,0 +1,23 @@
+{
+  "name": "shopify-ai-support",
+  "version": "0.1.0",
+  "description": "AI Customer Support Agent for Shopify SMBs — auto-resolves store support tickets",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "openai": "^4.28.0",
+    "@shopify/shopify-api": "^9.0.0",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
